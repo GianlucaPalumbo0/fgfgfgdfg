@@ -1,0 +1,85 @@
+@charset "UTF-8";
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: 30px;
+  text-align: center;
+  font-family: arial;
+  display: inline-block; 
+  position: relative;
+
+}
+
+
+.card img {
+  width: 100%;
+  height: 200px; 
+  object-fit: contain;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.product-info {
+  padding: 10px;
+  height: 150px; /* Altezza fissa della sezione del titolo e del prezzo */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-info h4 {
+  margin-bottom: 5px;
+}
+
+img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.card h1, .card p.price {
+  height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.img-container {
+  position: relative; /* Posiziona l'elemento in modo che gli elementi figli possano essere posizionati relativamente a questo */
+  width: 100%;
+  height: auto;
+}
+
+
+.btn-container {
+  position: absolute; /* Posiziona l'elemento in modo che sia sovrapposto all'immagine */
+  top: 65%; /* Posiziona l'elemento a metà dell'altezza dell'immagine */
+  left: 50%; /* Posiziona l'elemento a metà della larghezza dell'immagine */
+  transform: translate(-50%, 0); /* Sposta l'elemento verso l'alto e verso sinistra per centrarlo */
+  display: none; /* Nasconde l'elemento */
+  
+  
+}
+
+.img-container:hover .btn-container {
+  display: block; /* Mostra l'elemento quando l'utente passa il mouse sopra l'immagine */
+}

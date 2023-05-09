@@ -1,0 +1,156 @@
+#sopra {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  background-color: #fff;
+  text-align: center;
+}
+
+#sotto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #fff;
+}
+
+
+#zonaleft {
+  margin-left: 20px;
+  font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  color: black;
+  
+}
+
+#zonaleft h1 {
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: normal;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+#zonaleft ul {
+  list-style: none;
+  padding: 0;
+}
+
+#zonaleft li {
+  margin-bottom: 10px;
+ /* line-height: 24px;*/
+}
+
+
+
+#zonaleftcenter {
+  margin-left: 20px;
+  font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  color: black;
+}
+
+#zonaleftcenter h1 {
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: normal;
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#zonaleftcenter ul {
+  list-style: none;
+  padding: 0;
+}
+
+#zonaleftcenter li {
+  margin-bottom: 10px;
+ /* line-height: 24px;*/
+}
+
+#zonaleftcenter a {
+  color: black;
+  text-decoration: none;
+}
+
+#zonaleftcenter a:hover {
+  color: red;
+}
+
+
+#zonarightcenter {
+  margin-left: 20px;
+  font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  color: black;
+}
+
+#zonarightcenter h1 {
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: normal;
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#zonarightcenter ul {
+  list-style: none;
+  padding: 0;
+}
+
+#zonarightcenter li {
+  margin-bottom: 10px;
+ /* line-height: 24px;*/
+}
+
+#zonarightcenter a {
+  color: black;
+  text-decoration: none;
+}
+
+#zonarightcenter a:hover {
+  color: red;
+}
+
+#zonaright {
+  margin-left: 20px;
+  font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  color: black;
+}
+
+#zonaright h1 {
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: normal;
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#zonaright ul {
+  list-style: none;
+  padding: 0;
+}
+
+#zonaright li {
+  margin-bottom: 10px;
+ /* line-height: 24px;*/
+}
+
+#zonaright a {
+  color: black;
+  text-decoration: none;
+}
+
+#zonaright a:hover {
+  color: red;
+}
+
+h1 {
+  font-size:        120%;
+  color:            #954b4b;
+}

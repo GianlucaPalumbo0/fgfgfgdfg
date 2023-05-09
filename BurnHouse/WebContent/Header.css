@@ -1,0 +1,119 @@
+div.linea {
+  /*padding: 1px 1px 1px 1px;
+  text-align: center;
+  background: #333;
+  color: white;*/
+    font-family: "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    font-style: normal;
+    background-color: black;
+}
+/*
+body { 
+  background-color: #b5a789;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        small;
+  margin:           0px;
+}
+*/
+
+Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #fff;
+}
+
+
+
+#zonaleft img {
+  width: 100px;
+  height: 100px;;
+}
+
+#search-box-input {
+  width: 600px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#zonaright a:link { 
+  margin-left: 20px;
+  font-family: "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+  font-size: 14px;
+  color: black;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: normal;
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#zonaright a:hover { 
+  margin-left: 20px;
+  font-family: "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+  font-size: 14px;
+  color: red;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: normal;
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* nav new in blog */
+nav {
+  background-color: #fff;
+  margin: 0px 0px 0px 0px;
+}
+nav ul {
+margin: 0px;
+list-style-type: none;
+padding: 5px 0px 5px 0px;
+}
+nav ul li {
+display: inline;
+padding: 10px 60px 5px 10px;
+}
+
+
+nav a:link {
+    font-family: "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: normal;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+  nav a:hover {
+    font-family: "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 14px;
+    color: red;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: normal;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+h2 { font-size: 130%; }
